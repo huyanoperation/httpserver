@@ -1,0 +1,64 @@
+﻿生成启动时间为 2013/8/18 9:27:54。
+     1>项目“C:\work\httpservergithud\trunk\server\server.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Debug\server.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\MySQL\MySQL Server 5.6\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TC /errorReport:prompt mongoose.c
+         mongoose.c
+     1>mongoose.c(851): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+     1>mongoose.c(853): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+     1>mongoose.c(1506): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>mongoose.c(1685): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>mongoose.c(1685): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>mongoose.c(1726): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>mongoose.c(1752): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>mongoose.c(1765): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>mongoose.c(2331): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>mongoose.c(2571): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>mongoose.c(2572): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>mongoose.c(2709): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>mongoose.c(2968): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>mongoose.c(3323): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>mongoose.c(3416): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>mongoose.c(3880): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>mongoose.c(4074): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>mongoose.c(4254): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>mongoose.c(4266): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>mongoose.c(4684): warning C4244: “=”: 从“SOCKET”转换到“int”，可能丢失数据
+     1>mongoose.c(5005): warning C4244: “=”: 从“SOCKET”转换到“int”，可能丢失数据
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\MySQL\MySQL Server 5.6\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt VspdCToMySQL.cpp post.cpp
+         post.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         VspdCToMySQL.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>VspdCToMySQL.cpp(39): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>VspdCToMySQL.cpp(77): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>VspdCToMySQL.cpp(90): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>VspdCToMySQL.cpp(103): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+         Generating Code...
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\server.exe.embed.manifest.res" x64\Debug\server_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\work\httpservergithud\trunk\x64\Debug\server.exe" /INCREMENTAL /NOLOGO libmysql.lib mysqlclient.lib /NODEFAULTLIB:uafxcwd.lib /MANIFEST /ManifestFile:"x64\Debug\server.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\work\httpservergithud\trunk\x64\Debug\server.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\work\httpservergithud\trunk\x64\Debug\server.lib" /MACHINE:X64 x64\Debug\server.exe.embed.manifest.res
+         x64\Debug\mongoose.obj
+         x64\Debug\VspdCToMySQL.obj
+         x64\Debug\post.obj
+         server.vcxproj -> C:\work\httpservergithud\trunk\x64\Debug\server.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\server.exe.embed.manifest" /manifest x64\Debug\server.exe.intermediate.manifest "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         server.vcxproj -> C:\work\httpservergithud\trunk\x64\Debug\server.exe
+       FinalizeBuildStatus:
+         正在删除文件“x64\Debug\server.unsuccessfulbuild”。
+         正在对“x64\Debug\server.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\work\httpservergithud\trunk\server\server.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.13
